@@ -1,3 +1,8 @@
+## [Link to CloudFront website](https://d19abc31vx8vrv.cloudfront.net)
+
+## [Link to S3-website](https://rs-kate-web-page-bucket.s3.eu-central-1.amazonaws.com/)
+(should show access denied)
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
@@ -36,3 +41,11 @@ Runs tests in console, in browser or with coverage.
 ### `lint`, `prettier`
 
 Runs linting and formatting for all files in `src` folder.
+
+### `cdk:deploy`
+
+Deploys the stack to aws
+
+### `cdk:destroy`
+
+Destroys the stack
