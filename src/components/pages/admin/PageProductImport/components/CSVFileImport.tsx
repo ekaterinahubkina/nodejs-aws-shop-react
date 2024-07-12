@@ -1,7 +1,7 @@
 import React from "react";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
-import axios, { AxiosError } from "axios";
+import axios from "axios";
 
 type CSVFileImportProps = {
   url: string;
